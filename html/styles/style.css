@@ -1,0 +1,47 @@
+body{
+	background: rgb(237,237,237);
+    background: linear-gradient(0deg, rgba(237,237,237,1) 0%, rgba(207,207,207,1) 51%, rgba(122,208,219,1) 100%);
+}
+
+header {
+	font-family: Roboto;
+	text-align: center;
+}
+
+#izquierda {
+	float: left;
+	padding: 40px;
+}
+
+#derecha{
+	padding: 40px;
+	float: none;
+}
+
+table{
+	background-color: #CBFFFC;
+}
+
+td{
+	padding: 30px;
+	text-align: left;
+}
+
+#td2{
+	text-align: center;
+}
+
+button{
+	font-weight: bold;
+	width: 100px;
+	height: 50px;
+}
+
+#nueva_fuente{
+	font-weight: bold;
+	font-family: "Lato"
+}
+
+#bold{
+    font-weight: bold;
+}
