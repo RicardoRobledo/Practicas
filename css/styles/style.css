@@ -1,0 +1,157 @@
+
+/*
+Separacion y alineacion de componentes del menu
+*/
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto';
+}
+
+.menu{
+    background-color: rgba(60, 171, 250, 0.1);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    padding: 0 80px;
+    font-weight: bold;
+    margin-right: 300px;
+    color: #1055D0;
+    font-size: 25px;
+}
+
+.menu_items{
+    display: flex;
+    list-style: none;
+}
+
+#separacion_item{
+    margin-left: 40px;
+}
+
+
+button{
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
+    white-space: nowrap;
+    background-color: #1055D0;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 40px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-right: 80px;
+}
+
+button:hover{
+    background-color: #2a70e9;
+}
+
+.contenedor0{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 85%;
+}
+
+.contenedor{
+    display:flex;
+    flex-flow: column;
+    width: 50%;
+    align-items: center;
+}
+
+.contenedor2{
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: linear-gradient(to right, #0F91E4,#0b44a5);
+    width: 50%;
+}
+
+.formato{
+    font-weight: 400;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+    font-weight: bold;
+    color: #1D3C71;
+}
+
+p{
+    font-weight: 370;
+    width: 400px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    color: #6f7180;
+}
+
+/*Aqui se aplica solo a li*/
+.botones li{
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.botones{
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 16px;
+    width: 400px;
+    color: #2a3c5a;
+}
+
+.triangulo{
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-top: 50px solid #abbdca1a;
+    border-bottom: 50px solid transparent; 
+    margin-top: 0px;
+    margin-left: -400px;
+}
+
+.submenu{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100px;
+    width: 900px;
+    margin-top: 410px;
+    margin-left: 500px;
+    position: absolute;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+.submenu ul{
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 35px;
+}
+
+#titulo_lista{
+    margin-top: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #6f7180;
+}
+
+#info{
+    font-weight: bold;
+    font-size: 16px;
+    color: #2a3c5a;
+}
+
+#alineacion_boton{
+    margin-left: 50px;
+}
