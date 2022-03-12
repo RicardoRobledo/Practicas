@@ -35,7 +35,6 @@ Separacion y alineacion de componentes del menu
     margin-left: 40px;
 }
 
-
 button{
     box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.3);
     white-space: nowrap;
@@ -87,7 +86,6 @@ button:hover{
 }
 
 p{
-    font-weight: 370;
     width: 400px;
     margin-bottom: 20px;
     line-height: 25px;
@@ -96,15 +94,25 @@ p{
 
 /*Aqui se aplica solo a li*/
 .botones li{
-    display: inline-block;
     margin-right: 20px;
     font-weight: bold;
     font-size: 12px;
+    margin-right: 80px;
+    margin-left: 20px;
 }
 
 .botones{
     width: 400px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
+    display: flex;
+}
+
+.icono{
+    list-style-image: url("../imagenes/escudo.png");
+}
+
+.icono2{
+    list-style-image: url("../imagenes/estrella.png");
 }
 
 h2{
@@ -119,16 +127,15 @@ h2{
     border-left: 50px solid transparent;
     border-top: 50px solid #abbdca1a;
     border-bottom: 50px solid transparent; 
-    margin-top: 0px;
     margin-left: -400px;
 }
 
 .submenu{
     background-color: rgba(255, 255, 255, 0.8);
     height: 100px;
-    width: 900px;
+    width: 780px;
     margin-top: 410px;
-    margin-left: 500px;
+    margin-left: 380px;
     position: absolute;
     box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.2);
 }
@@ -139,11 +146,23 @@ h2{
     margin-left: 35px;
 }
 
-#titulo_lista{
-    margin-top: 15px;
+#titulo{
+    margin-top: 5px;
     font-size: 14px;
     margin-bottom: 10px;
     color: #6f7180;
+}
+
+.titulo_lista{
+    list-style-image: url("../imagenes/localizacion.png");
+}
+
+.titulo_lista2{
+    list-style-image: url("../imagenes/calendario.png");
+}
+
+.titulo_lista3{
+    list-style-image: url("../imagenes/vacuna.png");
 }
 
 #info{
@@ -152,6 +171,3 @@ h2{
     color: #2a3c5a;
 }
 
-#alineacion_boton{
-    margin-left: 50px;
-}
