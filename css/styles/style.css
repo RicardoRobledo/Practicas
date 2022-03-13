@@ -55,7 +55,7 @@ button:hover{
 
 .contenedor0{
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: space-between;
     width: 100%;
     min-height: 85%;
@@ -103,7 +103,7 @@ p{
 
 .botones{
     width: 400px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     display: flex;
 }
 
@@ -171,3 +171,69 @@ h2{
     color: #2a3c5a;
 }
 
+.editor{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.separador{
+    margin-top: 40px;
+    display: flex;
+    flex-flow: column;
+}
+
+.formato2{
+    font-weight: 400;
+    width: 400px;
+    margin-left: 120px;
+    font-weight: bold;
+    color: #1D3C71;
+}
+
+.formato3{
+    font-weight: 400;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #1D3C71;
+}
+
+.cont{
+    width: 800px;
+    margin-top: 30px;
+}
+
+.contenedor_cuadros{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row;
+}
+
+.cuadro_contenedor{
+    width: 190px;
+    height: 250px;
+    margin-left: 120px;
+    margin-right: -48px;
+    border-color: #ededee;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 30px;
+}
+
+h3{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.alineacion_icono{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.cont2{
+    margin-top: 15px;
+    font-size: 12px;
+    margin-left: 20px;
+    line-height: 20px;
+}
