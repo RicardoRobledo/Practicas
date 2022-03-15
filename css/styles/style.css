@@ -89,7 +89,16 @@ button:hover{
     display:flex;
     align-items: flex-end;
     justify-content: center;
-    background: rgb(117, 186, 225);
+    background: linear-gradient(to right, #0b44a5, #0F91E4);
+    width: 400%;
+    height: 450px;
+}
+
+.contenedor6{
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    background: linear-gradient(to right, #0F91E4,#0b44a5);
     width: 400%;
     height: 450px;
 }
@@ -100,6 +109,14 @@ button:hover{
     justify-content: center;
     width: 50%;
     height: 700px;
+}
+
+.contenedor7{
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 50%;
+    height: 620px;
 }
 
 .formato{
@@ -337,7 +354,118 @@ h3{
     justify-content: space-between;
 }
 
+.texto_info2{
+    font-size: 20px;
+}
+
+.alineacion_interna{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
 .formato_interno{
     margin-top: 20px;
     font-size: 12px;
+}
+
+.envoltura{
+    margin-top: 60px;
+    width: 63%;
+    margin-left: 60px;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.boton_interno2{
+    background-color: rgb(241, 245, 255);
+    font-size: 10px;
+    margin-left: 10px;
+    box-shadow: none;
+    color: rgb(37, 71, 202);
+}
+
+.boton_interno3{
+    background-color: rgb(241, 245, 255);
+    font-size: 10px;
+    margin-left: 25px;
+    box-shadow: none;
+    color: rgb(37, 71, 202);
+}
+
+.cuadro{
+    width: 170px;
+    height: 180px;
+    border: solid;
+    border-radius: 7%;
+    border-color: #ededee;
+}
+
+.boton_interno{
+    margin-left: 14px;
+}
+
+.pie_pagina{
+    margin-top: 100px;
+    background-color: rgb(238, 243, 255);
+    height: 250px;
+    padding-top: 60px;
+}
+
+.pie_alineacion{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.alineacion_lista{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.cont4{
+    font-weight: 450;
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#separacion_item2{
+    margin-left: 100px;
+    color: #1D3C71;
+    font-weight: bold;
+}
+
+.tamanio_caja{
+    font-weight: 500;
+    width: 100px;
+    margin-top: 20px;
+}
+
+#separacion_logo_pie{
+    margin-right: 400px;
+}
+
+.info_footer{
+    margin-left: 80px;
+    color: #6f7180;
+    margin-top: 100px;
+    margin-right: 630px;
+}
+
+.info_footer2{
+    color: #6f7180;
+    margin-top: 100px;
+    margin-right: 40px;
 }
