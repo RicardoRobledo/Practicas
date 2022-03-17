@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<!------------------------------------------------------------>
+
+<head>
+
+ 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible", content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+	<title>Pokedex</title>
+
+
+</head>
+
+<!---------------------- Cuerpo de pagina ---------------------->
+
+<body class="fondo">
+
+
+    <section>
+
+        <!---------------------- Primera vista ---------------------->
+
+        <div class="contenedor_izquierda">
+            <div class="aparato_vista1">
+
+                <div class="borde_led">
+    
+                    <div class="led">
+                        <div class="brillo_led"></div>
+                    </div>
+        
+                </div>
+        
+                <div class="borde_pantalla">
+        
+                    <div class="pantalla">
+                        <img src="./pokeball.png" alt="Pokemon" id="pokeImg">
+                    </div>
+        
+                    <input type="text" placeholder="Pikachu" id="pokeName">
+        
+                </div>
+    
+                <button onclick="fetchPokemon()">Buscar Pokemon</button>
+    
+            </div>
+        </div>
+
+
+        <!---------------------- Segunda vista ---------------------->
+
+
+        <div class="contenedor_derecha">
+
+            <div class="aparato_vista2">
+        
+                <div class="pantalla_estadisticas">
+
+                    <div class="separacion_datos">
+
+                        <div class="formato_estadisticas">
+                            <em>Tipo:</em>
+                            <label id="pokeEtiqueta2">???</label>
+                        </div>
+
+                    </div>
+
+                    <div class="separacion_datos">
+
+                        <div class="formato_estadisticas">
+                            <em>Estadisticas:</em>
+                            <label id="pokeEtiqueta3">???</label>
+                        </div>
+
+                    </div>
+
+                    <div class="separacion_datos">
+
+                        <div class="formato_estadisticas">
+                            <em>Movimientos:</em>
+                            <label id="pokeEtiqueta4">???</label>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="formato_espaciado">
+                    <label class="formato_pokemon">Pokemon</label>
+                    <label id="pokeEtiqueta" class="formato_nombre">???</label>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+</body>
+
+<!---------------------- Pie de pagina ---------------------->
+
+<footer>
+	<script src="./pokedex.js"></script>
+</footer>
+
+
+</html>

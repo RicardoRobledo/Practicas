@@ -1,0 +1,188 @@
+*{
+    font-family: 'Open Sans';
+}
+
+.fondo{
+	background-image: url("espacio.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.aparato_vista1{
+	background-color: #F13F76;
+	width: 400px;
+	height: 605px;
+	margin-left: 250px;
+	border-radius: 3%;
+	display: flex;
+	flex-flow: column;
+	border-style: groove;
+	border-color: #ff7ea7;
+}
+
+.aparato_vista2{
+	background-color: #F13F76;
+	width: 400px;
+	height: 605px;
+	margin-right: 250px;
+	border-radius: 3%;
+	display: flex;
+	flex-flow: column;
+	border-style: groove;
+	border-color: #ff7ea7;
+	color:#ffffff;
+}
+
+section{
+	display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 85%;
+}
+
+.contenedor_izquierda{
+	display:flex;
+    flex-flow: column;
+    width: 50%;
+    align-items: center;
+}
+
+.contenedor_derecha{
+	display:flex;
+    flex-flow: column;
+    width: 50%;
+    align-items: center;
+}
+
+.borde_pantalla{
+	background-color: #9de0ff;
+	width: 300px;
+	height: 225px;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.pantalla_estadisticas{
+	background-color: #2e2e2e;
+	width: 300px;
+	height: 390px;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2%;
+	display: flex;
+	flex-flow: column;
+}
+
+.pantalla{
+	background-color: #ffffff;
+	width: 285px;
+	height: 170px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border-radius: 2%;
+}
+
+.borde_led{
+	width: 100px;
+    height: 100px;
+    border-radius: 50%;
+	margin-left: 10px;
+	margin-top: 10px;
+    background:  #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.led{
+	width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #fbff07;
+}
+
+.brillo_led{
+	margin-left: 50px;
+	margin-top: 15px;
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #feffd2;
+}
+
+em{
+	font-weight: bold;
+}
+
+button{
+	height: 70px;
+	width: 200px;
+	background-color: #202020;
+	border-radius: 3%;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+	font-weight: bold;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	outline: none;
+}
+
+.formato_pokemon{
+	font-weight: bold;
+	font-size: 25px;
+	color: #fbff07;
+}
+
+.formato_nombre{
+	font-size: 15px;
+	color: #ffffff;
+}
+
+button:hover{
+	background-color: #333333;
+}
+
+img{
+	width: 50%;
+	margin-top: 15px;
+	margin-left: 70px;
+}
+
+input{
+	text-align: center;
+	border-style: dotted;
+}
+
+.formato_espaciado{
+	width: 100%;
+	display: flex;
+	flex-flow: column;
+	margin-top: 20px;
+	align-items: center;
+}
+
+.separacion_datos{
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 255px;
+	height: 105px;
+	background-color: rgb(184, 131, 72);
+}
+
+.formato_estadisticas{
+	margin-top: 10px;
+	margin-left: 10px;
+}
